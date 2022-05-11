@@ -1,0 +1,67 @@
+#container {
+	font-family: Georgia;
+}
+
+body{
+	background: white;
+	line-height: 2;
+}
+img {
+	width:88.5%;
+	padding:0;
+	margin: 5%;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+}
+h4 {
+	padding: 5px 50px;
+	background: black;
+	color: white;
+	margin:0px;
+}
+h2 {
+	padding: 0px 30px;
+	background: black;
+	color: white;
+	margin:0px;
+}
+h3 {
+	margin:0px;
+	font-size: 15px;
+	border-bottom: 1px solid lightgrey;
+	color: rgb(50, 50, 50);
+}
+header{
+	color: black;
+}
+nav {
+	background-color: lightblue;
+}
+nav.sublink{
+	margin:0px;
+	background: lightblue;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-flex;
+	margin: 1px 10px;
+}
+nav ul li a{
+	color: black;
+}
+div.block {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	float: center
+	width:70%;
+	background: white;
+}
+footer {
+	font-size: 12px;
+	padding: 5px 45px;
+	background-color: lightblue;
+	border-bottom: 5px solid black;
+}
